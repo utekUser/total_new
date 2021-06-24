@@ -1,0 +1,67 @@
+.hidden{
+  display: none;
+ } 
+input[name="map"],
+input[name="map"]:not(:checked)+div {
+display: none;
+}
+.button {
+border: gray 2px outset;
+user-select: none;
+-moz-user-select: none;
+-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+}
+.button:active {
+}
+input[name="main"],
+input[name="main"]:not(:checked)+div {
+display: none;
+}
+input[name="sub"],
+input[name="sub"]:not(:checked)+div {
+display: none;
+}
+.button {
+user-select: none;
+-moz-user-select: none;
+-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+}
+.button:active {
+}
+.box2l{
+height: 100%;
+width: 100;
+display: flex;
+}
+.box2l_1{
+height: auto;
+width: 175px;
+}
+.box2l_table{
+height: auto;
+width: 80%;
+position: fixed;
+margin-top: 10px; 
+margin-left: 180px;	
+}
+table{
+width: 750px;	
+}
+td{
+width: 85px;
+text-align: center;	
+}
+th{
+text-align: left;	
+width: 180px;	
+}
+.tab1{
+}
+.tab2{
+}
+
+

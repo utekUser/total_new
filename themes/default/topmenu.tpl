@@ -1,0 +1,1 @@
+<?php include 'responsiveDesign/topMenuTpl.php'; ?>
